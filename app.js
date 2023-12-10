@@ -23,15 +23,15 @@ NewUser = {
   },
 };
 let list = helper.getAllUser();
-//console.log(list);
+console.log(list);
 
 console.log(helper.getFirstUser(list));
-console.log(helper.getLast(list));
-console.log(helper.getUserByID(list, 9));
-console.log(helper.getUserByCompanyName(list, "Deckow-Crist"));
-console.log(helper.getUsersByCity(list, "McKenziehaven"));
-console.log(helper.getStreet(list, 2));
-console.log(helper.addNewUser(list, NewUser));
-console.log(helper.updateUser(list, 2, "steamgtyaseent11@gmail.com"));
-//for update user (list, userID, newEmail)
-console.log(helper.deleteUserById(list, 1));
+// console.log(helper.getLast(list));
+// console.log(helper.getUserByID(list, 9));
+// console.log(helper.getUserByCompanyName(list, "Deckow-Crist"));
+// console.log(helper.getUsersByCity(list, "McKenziehaven"));
+// console.log(helper.getStreet(list, 2));
+// console.log(helper.addNewUser(list, NewUser));
+// console.log(helper.updateUser(list, 2, "steamgtyaseent11@gmail.com"));
+// //for update user (list, userID, newEmail)
+// console.log(helper.deleteUserById(list, 1));
